@@ -6,10 +6,17 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === '>ping') {
+    	message.reply('Pong :stuck_out_tongue: ');
   	}
+    
+client.on('message', message => {
+    if (message.content === 'what is my avatar') {
+        message.reply(message.author.avatarURL);
+    }   
+    
+    
 });
 
-// THIS  MUST  BE  THIS  WAY
+
 client.login(process.env.BOT_TOKEN);
