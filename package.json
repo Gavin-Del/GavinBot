@@ -1,6 +1,6 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "GavinTheBot",
+  "description": "Bot for Gavin's Discord",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
